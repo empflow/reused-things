@@ -1,5 +1,5 @@
 export default function getEnvVar(varName: string) {
-  const envVar = process.env[varName];
-  if (!envVar) throw new Error(`${varName} environment variable not found`);
-  return envVar;
+  const varVal = process.env[varName];
+  if (!varVal) throw new Error(`${varName} environment variable not found`);
+  return varVal;
 }
