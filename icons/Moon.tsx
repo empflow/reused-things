@@ -1,5 +1,3 @@
-import React from "react"; // remove this
-
 interface Props {
   pxSize?: number;
   className?: string;
